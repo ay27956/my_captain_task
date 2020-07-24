@@ -1,0 +1,12 @@
+a = int(input("Input the first element: "))
+b = int(input("Input the second element: "))
+c = int(input("Input the third element: "))
+d = int(input("Input the fourth element: "))
+list1 = []
+list2 = []
+list1.extend([a,b,c,d])
+print("Input: list1 = ", list1)
+for i in list1:
+    if i > 0:
+        list2.append(i)
+print("Output: ", list2)
