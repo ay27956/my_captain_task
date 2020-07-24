@@ -1,0 +1,8 @@
+def most_frequent(x):
+    dict1 = {}
+    for i in x:
+        dict1[i] = x.count(i)
+    return dict1
+y = most_frequent("Mississippi")
+for key,value in y.items():
+    print(key," = ",value)
